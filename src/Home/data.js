@@ -37,7 +37,7 @@ const data = {
     title: '技术变革历程',
     timeline: [
       {
-        src: '/assets/images/1.jpg',
+        src: '/assets/images/dbox.png',
         name: '老CTS',
         post: '基于jsp的前端实现',
         time: '2016.12 - 2017.03',
@@ -45,7 +45,7 @@ const data = {
         content: ['基于业务的需求文档，从前端到后端数据库单人完成'],
       },
       {
-        src: 'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+        src: '/assets/images/dbox.png',
         name: 'NTMS系统',
         post: '前后端分离, 前端工程化',
         time: '2017.04 - 2017.10',
@@ -53,7 +53,7 @@ const data = {
         content: ['新的工作模式：基于系统原型的需求讲解业务，大大降低沟通成本，开发对需求的理解更形象，全面。', '新的开发模式：职责分离，技术分离，带来的用户体验提升，业务理解解构。前端工程化实现前端自动化构建，部署，同时提高开发效率，是前端项目更易维护，管理。', '新的思考模式：不在基于原有一体化WEB开发模式来思考，技术人员从复杂技术组合中解放，更关注于自己擅长领域开发探索。', '新的挑战：前后端测试，接口的设计，接口的主导，团队的沟通交流要求更高，前后端团队必须设计同一套相对稳定web API, 要求接口不止存在于人的记忆中，更要文档化，持久化。'],
       },
       {
-        src: 'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+        src: '/assets/images/dbox.png',
         name: '对接产品组的合作',
         post: '从寿险大屏到DBOX',
         time: '2017.11 - 至今',
@@ -68,7 +68,7 @@ const data = {
         }],
       },
       {
-        src: 'https://gw.alipayobjects.com/zos/rmsportal/SlFgHDtOTLzccvFrQHLg.png',
+        src: '/assets/images/haodai.png',
         name: '移动端的尝试',
         post: 'H5营销，金服好贷APP',
         time: '2017.12 - 至今',
