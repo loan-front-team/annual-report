@@ -1,0 +1,51 @@
+@import './default';
+header {
+  .site-top {
+    padding: 0 2.5%;
+    position: absolute;
+    background: transparent;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1000;
+    &.no-banner {
+      position: fixed;
+      background: rgba(255, 255, 255, .9);
+      box-shadow: 0 8px 16px rgba(92, 127, 204, 0.12);
+      li {
+        color: #314659;
+      }
+      .logo {
+        background: url(https://gw.alipayobjects.com/os/s/prod/seeconf/6c8acbd503868d546563c2570ebc71ca.svg) no-repeat 0;
+        cursor: pointer;
+      }
+    }
+    nav {
+      margin-right: 8px;
+      >ul>li {
+        float: left;
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 48px;
+        cursor: pointer;
+        color: @banner-title-color;
+        &:last-child {
+          margin-right: -8px;
+        }
+      }
+    }
+    .logo {
+      width: 140px;
+      height: 32px;
+      background: url(https://gw.alipayobjects.com/os/s/prod/seeconf/9b458a789d9a000312899b42a7542b9c.svg) no-repeat 0;
+      position: absolute;
+      left: 2.5%;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+}
